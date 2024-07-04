@@ -1,0 +1,13 @@
+import java.util.Scanner;
+class Main{
+    public static void main(String args[]){
+        Scanner input=new Scanner(System.in);
+        int s=input.nextInt();
+        int e=input.nextInt();
+        for(int i=s;i<=e;i++){
+        if(i%2==1){
+            System.out.println("ODD NUMBER IS:"+i);
+        }
+        }
+    }
+}
