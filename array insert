@@ -13,7 +13,7 @@ class Main{
             pos = input.nextInt();
             System.out.println("Enter the Value :");
             val= input.nextInt();
-            System.out.println("Replace Number is");
+            System.out.println("Insert Number is");
             for(int i=0;i<newA.length;i++){
                 if(i<pos-1)
                     newA[i]=A[i];
